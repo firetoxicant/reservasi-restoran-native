@@ -3,7 +3,6 @@ include('../controllers/authCheck.php');
 include('../config/koneksi.php');
 
 echo "<pre>";
-print_r($_SESSION);
 unset($_SESSION['reservasi_meja_baru']);
 unset($_SESSION['keranjang']);
 echo "</pre>";
