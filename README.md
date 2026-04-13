@@ -1,14 +1,14 @@
-##🍗 Aplikasi Reservasi Restoran - Ayam Bolo Bebek
+## 🍗 Aplikasi Reservasi Restoran - Ayam Bolo Bebek
 Aplikasi berbasis web ini dirancang untuk memudahkan pelanggan dalam melakukan reservasi meja dan pemesanan menu secara daring, serta membantu manajemen restoran (admin dan kasir) dalam mengelola data operasional secara terstruktur.
 
-##👥 Informasi Kelompok
+## 👥 Informasi Kelompok
 Sesuai dengan penugasan, berikut adalah detail pengembang aplikasi:
 
 - Kukuh Wisanggeni : 24082010014(backend)
 
 - Jonathan Steward : 24082010041(frontend)
 
-##🛠️ Tech Stack yang Digunakan
+## 🛠️ Tech Stack yang Digunakan
 Aplikasi ini dibangun menggunakan kombinasi teknologi modern untuk performa dan kemudahan pengembangan:
 
 - Bahasa Pemrograman: PHP
@@ -19,7 +19,7 @@ Aplikasi ini dibangun menggunakan kombinasi teknologi modern untuk performa dan 
 
 - Web Server: Apache (XAMPP)
 
-##✨ Fitur Utama Aplikasi
+## ✨ Fitur Utama Aplikasi
 Aplikasi ini mendukung tiga hak akses utama dengan fitur-fitur berikut:
 
 1. Fitur Pelanggan
