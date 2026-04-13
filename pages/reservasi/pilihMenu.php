@@ -2,10 +2,6 @@
 include('../controllers/authCheck.php');
 include('../config/koneksi.php');
 
-echo "<pre>";
-print_r($_SESSION);
-echo "</pre>";
-
 $sql = "SELECT * FROM tbl_menu WHERE status = 'tersedia'";
 $result = $conn->query($sql);
 

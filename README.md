@@ -1,3 +1,48 @@
+## 🍗 Aplikasi Reservasi Restoran - Ayam Bolo Bebek
+Aplikasi berbasis web ini dirancang untuk memudahkan pelanggan dalam melakukan reservasi meja dan pemesanan menu secara daring, serta membantu manajemen restoran (admin dan kasir) dalam mengelola data operasional secara terstruktur.
+
+## 👥 Informasi Kelompok
+Sesuai dengan penugasan, berikut adalah detail pengembang aplikasi:
+
+- Kukuh Wisanggeni : 24082010014(backend)
+
+- Jonathan Steward : 24082010041(frontend)
+
+## 🛠️ Tech Stack yang Digunakan
+Aplikasi ini dibangun menggunakan kombinasi teknologi modern untuk performa dan kemudahan pengembangan:
+
+- Bahasa Pemrograman: PHP
+
+- Database: MySQL (dikelola melalui phpMyAdmin)
+
+- Frontend Framework: Tailwind CSS
+
+- Web Server: Apache (XAMPP)
+
+## ✨ Fitur Utama Aplikasi
+Aplikasi ini mendukung tiga hak akses utama dengan fitur-fitur berikut:
+
+1. Fitur Pelanggan
+Reservasi Meja Online: Memilih meja berdasarkan kapasitas dan jadwal waktu kunjung.
+
+Pemesanan Menu Terintegrasi: Memilih hidangan favorit (seperti Bebek Goreng dan Ayam Goreng) langsung saat reservasi.
+
+Sistem Pembayaran DP: Mengunggah bukti transfer sebagai syarat konfirmasi reservasi.
+
+Riwayat Reservasi: Memantau status dan detail pesanan pribadi.
+
+2. Fitur Kasir
+Manajemen Kedatangan: Melihat daftar seluruh reservasi pelanggan.
+
+Proses Pelunasan: Menangani pembayaran sisa tagihan di tempat dengan kalkulator kembalian otomatis.
+
+Verifikasi Kasir: Setiap transaksi pelunasan dicatat atas nama kasir yang bertugas.
+
+3. Fitur Admin
+Manajemen Data Master: Mengelola data meja (kapasitas) dan data menu (harga/gambar).
+
+Laporan Keuangan: Memantau total pendapatan dan riwayat transaksi yang sudah lunas secara descending.
+
 # Windmill Dashboard
 
 A multi theme, completely accessible, with components and pages examples, ready for production dashboard.
