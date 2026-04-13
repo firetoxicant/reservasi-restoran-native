@@ -56,7 +56,6 @@ include('../layout/index.php');
                         name="status" id="status">
                         <option value="" disabled selected>Pilih Status...</option>
                         <option value="tersedia" <?php echo ($data_meja['status'] == "tersedia") ? "selected" : "" ?>>Tersedia</option>
-                        <option value="dipesan" <?php echo ($data_meja['status'] == "dipesan") ? "selected" : "" ?>>Dipesan</option>
                         <option value="tidak tersedia" <?php echo ($data_meja['status'] == "tidak tersedia") ? "selected" : "" ?>>Tidak Tersedia</option>
                     </select>
                 </label>

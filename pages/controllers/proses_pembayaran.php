@@ -35,10 +35,16 @@ if (isset($_POST['bayar'])) {
             // 3. Simpan Detail Pesanan Menu ke tbl_order
             if (isset($_SESSION['keranjang'])) {
                 foreach ($_SESSION['keranjang'] as $id_menu => $porsi) {
-                    $cek_harga = "SELECT harga FROM tbl_menu WHERE id='$id_menu'";
+                    $cek_harga = "SELECT harga, stok FROM tbl_menu WHERE id='$id_menu'";
                     $result = $conn->query($cek_harga);
-                    $data_harga = $result->fetch_assoc();
-                    $harga = $data_harga['harga'];
+                    $data_menu = $result->fetch_assoc();
+
+                    //update stok
+                    $stok = $data_menu['stok'];
+                    $conn->query("UPDATE tbl_menu SET stok = $stok - $porsi WHERE id = '$id_menu'");
+
+                    //insert tbl_order
+                    $harga = $data_menu['harga'];
                     $sub_total = $harga * $porsi;
                     $conn->query("INSERT INTO tbl_order (id_reservasi, id_menu, jumlah, sub_total) VALUES ('$id_reservasi_terbaru', '$id_menu', '$porsi', '$sub_total')");
                 }

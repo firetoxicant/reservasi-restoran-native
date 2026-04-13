@@ -51,7 +51,6 @@
                     <select name="status" class="block w-full mt-1 text-sm dark:text-gray-300 dark:bg-gray-700 focus:border-yellow-400 focus:outline-none focus:shadow-outline-yellow form-input" name="durasi" id="durasi">
                         <option value="" disabled selected>Pilih Status...</option>
                         <option value="tersedia">Tersedia</option>
-                        <option value="dipesan">Dipesan</option>
                         <option value="tidak tersedia">Tidak Tersedia</option>
                     </select>
                 </label>
